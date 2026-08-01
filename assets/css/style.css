@@ -1,0 +1,22 @@
+.heading {
+    margin: 0;
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.acco-content {
+    margin: 0;
+    border: 1px solid #000;
+    padding: 10px;
+    display: none;
+}
+
+.heading.active {
+    background-color: orange;
+}
+
+.heading.active + .acco-content {
+    display: block;
+}
