@@ -10,7 +10,7 @@ function onAccoClick(eve) {
 accoHeads.forEach(h => {
     h.addEventListener('click', onAccoClick);
 });
-
+////
 
 
 
